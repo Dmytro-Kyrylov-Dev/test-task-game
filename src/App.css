@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.game {
+  width: 550px;
+  height: 350px;
+  padding: 15px;
+  display: flex;
+  background-color: #545F7D;
+}
+
+.board {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 30px;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #cccccc;
+  font-size: 100px;
+  background: #44425E;
+  border: 2px solid #b65cd1;
+}
+
+.score p {
+  color: #FEFEFE;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.btn-try-again {
+  border: none;
+  background-color: #44425E;
+  color: #FEFEFE;
+  font-size: 20px;
+  border: 1px solid #b65cd1;
+  padding: 10px 15px;
+}
